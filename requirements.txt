@@ -1,5 +1,4 @@
-# FloatChat - SIH25040
-# Requirements matched to your actual installed myenv packages
+
 # Install: pip install -r requirements.txt
 
 # ── Data Fetching ──────────────────────────────────────────────────────────────
