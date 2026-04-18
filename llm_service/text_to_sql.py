@@ -1,14 +1,4 @@
-"""
-llm_service/text_to_sql.py
-===========================
-Converts natural language questions to MySQL SELECT queries using Gemini.
 
-FIXED: Uses new google.genai SDK (not deprecated google.generativeai)
-       Model: gemini-2.0-flash
-
-USAGE:
-    python llm_service/text_to_sql.py
-"""
 
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
