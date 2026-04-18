@@ -1,13 +1,4 @@
-"""
-scripts/setup_db.py
-====================
-Run this ONCE to create the MySQL database schema.
 
-FIXED: Added 'time' column which was missing in original version.
-
-Usage:
-    python scripts/setup_db.py
-"""
 
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
