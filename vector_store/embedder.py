@@ -1,20 +1,4 @@
-"""
-vector_store/embedder.py
-=========================
-Builds a FAISS semantic search index from ARGO ocean data.
 
-HOW IT WORKS:
-  1. Pull unique profiles from MySQL
-  2. Convert each profile to human-readable text
-     e.g. "ARGO float 6902746 measured on 2024-01-15 at lat=12.3°, lon=65.4°.
-           Avg temperature: 27.5°C. Avg salinity: 35.2 PSU."
-  3. Embed these texts using sentence-transformers (runs locally, free)
-  4. Store embeddings in FAISS for fast similarity search
-  5. When user asks a question, embed the question and find matching profiles
-
-USAGE:
-    python vector_store/embedder.py   ← builds and saves the index
-"""
 
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
