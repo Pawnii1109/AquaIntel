@@ -1,14 +1,4 @@
-"""
-data_ingestion/db_writer.py
-============================
-Saves ARGO data to MySQL and provides query utilities.
 
-FIXES from original:
-  1. 'time' column is now properly saved
-  2. 'float_id' column added
-  3. Added run_query() method needed by RAG pipeline
-  4. Added get_stats() for dashboard KPIs
-"""
 
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
