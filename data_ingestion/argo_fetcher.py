@@ -1,19 +1,4 @@
-"""
-data_ingestion/argo_fetcher.py
-================================
-Fetches ARGO ocean data from the ERDDAP API.
 
-FIXES from original version:
-  1. 'time' column is now properly fetched AND saved
-  2. Added 'float_id' extraction from ERDDAP
-  3. Better error messages
-  4. SSL warning suppressed cleanly
-  5. Multiple region presets added for more data coverage
-
-Usage:
-    from data_ingestion.argo_fetcher import fetch_data
-    df = fetch_data(region="indian_ocean")
-"""
 
 import requests
 import pandas as pd
