@@ -1,10 +1,4 @@
-"""
-llm_service/rag_pipeline.py
-============================
-Full RAG pipeline using NEW google.genai SDK.
 
-FIXED: Uses google.genai instead of deprecated google.generativeai
-"""
 
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
