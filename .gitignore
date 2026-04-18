@@ -1,0 +1,44 @@
+# ── Virtual Environment (NEVER upload — 2GB+) ──────────
+myenv/
+venv/
+env/
+.venv/
+
+# ── Secret credentials (NEVER upload) ──────────────────
+.env
+
+# ── FAISS index files (large binary files) ─────────────
+vector_store/faiss.index
+vector_store/metadata.json
+
+# ── Python cache files ──────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# ── Jupyter notebook checkpoints ────────────────────────
+.ipynb_checkpoints/
+
+# ── Generated chart images (from analyze_data.py) ───────
+*.png
+*.html
+pro_ocean_heatmap.html
+temp_vs_time.png
+salinity_vs_time.png
+depth_vs_temp.png
+
+# ── IDE files ────────────────────────────────────────────
+.vscode/
+.idea/
+*.code-workspace
+
+# ── OS files ─────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Logs ─────────────────────────────────────────────────
+*.log
+logs/

@@ -1,0 +1,35 @@
+# FloatChat - SIH25040
+# Requirements matched to your actual installed myenv packages
+# Install: pip install -r requirements.txt
+
+# ── Data Fetching ──────────────────────────────────────────────────────────────
+requests>=2.33.0
+urllib3>=2.0.0
+
+# ── Data Processing ────────────────────────────────────────────────────────────
+pandas>=2.2.0
+numpy>=1.26.0
+xarray>=2024.5.0
+
+# ── Database ───────────────────────────────────────────────────────────────────
+sqlalchemy>=2.0.0
+pymysql>=1.1.0         # MySQL driver (already in your env)
+
+# ── Vector Store / RAG ────────────────────────────────────────────────────────
+faiss-cpu>=1.8.0       # Already installed in your env
+sentence-transformers>=3.0.0  # Already installed in your env
+
+# ── Gemini AI ─────────────────────────────────────────────────────────────────
+google-generativeai>=0.5.0    # Already installed as google-genai in your env
+
+# ── Visualization ──────────────────────────────────────────────────────────────
+plotly>=5.22.0
+folium>=0.16.0         # Already installed
+matplotlib>=3.10.0     # Already installed
+
+# ── Web App ────────────────────────────────────────────────────────────────────
+streamlit>=1.35.0      # Already installed
+streamlit-folium>=0.20.0  # Already installed
+
+# ── Utilities ──────────────────────────────────────────────────────────────────
+python-dotenv>=1.0.0
